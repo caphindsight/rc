@@ -158,5 +158,5 @@ export PATH=$PATH:/main/yandex/devtools/ya
 # Setup alias to source ssh variables using command 'fixssh'
 export PATH=$PATH:/main/soft/tmux/data
 
-export `gnome-keyring-daemon --start`
+export $(nohup gnome-keyring-daemon --start 2>/dev/null)
 
