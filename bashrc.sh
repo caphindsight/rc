@@ -160,3 +160,5 @@ export PATH=$PATH:/main/soft/tmux/data
 
 export $(nohup gnome-keyring-daemon --start 2>/dev/null)
 
+export EDITOR=vim
+
