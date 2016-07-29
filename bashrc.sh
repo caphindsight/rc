@@ -162,3 +162,5 @@ export $(nohup gnome-keyring-daemon --start 2>/dev/null)
 
 export EDITOR=vim
 
+alias ssh="ssh -A"
+
