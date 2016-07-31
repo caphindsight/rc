@@ -5,6 +5,11 @@ set ts=4
 set sw=4
 set et
 
+set guioptions-=l
+set guioptions-=L
+set guioptions-=r
+set guioptions-=R
+
 call pathogen#infect()
 
 map <C-t> :NERDTreeToggle<CR>
